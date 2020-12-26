@@ -1,0 +1,13 @@
+file_extensions:
+- ".log"
+- ".txt"
+- ".gz"
+- ".bz2"
+
+rules:
+- substitute:
+    find: "example.com"
+    replace: "mydomain"
+- substitute:
+    find: "test"
+    replace: "mytest"
